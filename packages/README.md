@@ -1,0 +1,1 @@
+All exercises go here in separate folders
