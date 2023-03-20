@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes!</title>
+</head>
+
+<body>
+    <h1>Cupcakes!</h1>
+
+    <form action="POST">
+        <input type="text" name="flavor" id="flavor" placeholder="Flavor">
+        <input type="text" name="size" id="size" placeholder="Size">
+        <input type="text" name="rating" id="rating" placeholder="Rating">
+        <input type="url" name="image" id="image" placeholder="Photo URL">
+        <button>Add Cupcake</button>
+    </form>
+
+    <section class="cupcakes">
+
+    </section>
+
+    <!-- <ul>
+        {% for cupcake in cupcakes %}
+        <li>Flavor: {{cupcake.flavor}}, Size: {{cupcake.size}}, Rating: {{cupcake.rating}} <img src="{{cupcake.image}}"
+                alt="{{cupcake.flavor}} cupcake" height="300"></li>
+        {% endfor %}
+    </ul> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
+        integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+    <script src="static/cupcakes.js"></script>
+</body>
+
+</html>
