@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='24 11 788 803' xmlns:xlink='http://www.w3.org/1999/xlink' width='788.0px' font-size='12' font-family='Arial, LiberationSans' version='1.1' height='803.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='feb4f3a7-241b-46bc-9a6b-8077f4fdd5a4' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='6f70b458-1872-4c3b-9651-b3a32fe05e21' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='311d99db-1608-4427-867c-c8de9d581c9d' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='9b27e4ab-571c-47b5-a461-a43e3c9bc249' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='cc1ca21f-7133-413e-80fe-f4c6ab99ab88' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='80610e2d-1d27-4808-a354-b0852b6b4a56' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='f80fef8b-be2b-471e-82a2-6ecfcb03f59d' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(200, 200, 200)'/>
+    </linearGradient>
+  </defs>
+  <desc>RdsDiagram</desc>
+  <g transform='translate(201.0,41.0)' id='_yHJ9MJwDEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='160.0px' y='0.0' stroke-width='1.0' fill='url(#feb4f3a7-241b-46bc-9a6b-8077f4fdd5a4)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 160.0,160.0 160.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='80.0' y='16.0' fill='rgb(51, 51, 51)'>teams</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wIDDQEb3G+TKgAAATxJREFUOMvV079KA0EQBvBv727vzF5IQoKKoBbGzt5CsPEh9EFUkDyBrfgEdj6BpdjYWKgIAcGoCCbm1ITL/Ulus7u3FqKCiXilbjvf/BiGWeDfP/JTYe/4viIjXsgxZvheN7BpvrO1vph+z1njmjf3z8qOILvMddcs06TWZOm8HyfbAG4yAdXqXJna6YpDrQWDAGlKXbdAp7TWDUKI/hV49iVWZxlZms8jZxu4uAuNB29Adi5Hs2OBJB2CmgwlZsGhBixTQxKNOs8IRIJDqq9JpdLgQwHPH80a4wARSkil8EEoqaC5Rq6ZEYjiEEIIQL8TQipEQ47TdkYgjgWkTD8nEEJBJQLF14w78Lvt/tU1q3deesyZsOltK2g8PoVB7+Qg+yVu1I5mBsGAFSoVEichd4rTrcPasvp7n+kNv3CHpBFXDvYAAAAASUVORK5CYII=' height='16.0'/>
+    <text x='20.0' y='63.0'>name: TEXT</text>
+  </g>
+  <g transform='translate(571.0,51.0)' id='_2PcoQJwDEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='160.0px' y='0.0' stroke-width='1.0' fill='url(#6f70b458-1872-4c3b-9651-b3a32fe05e21)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 160.0,160.0 160.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='80.0' y='16.0' fill='rgb(51, 51, 51)'>players</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wIDDQEb3G+TKgAAATxJREFUOMvV079KA0EQBvBv727vzF5IQoKKoBbGzt5CsPEh9EFUkDyBrfgEdj6BpdjYWKgIAcGoCCbm1ITL/Ulus7u3FqKCiXilbjvf/BiGWeDfP/JTYe/4viIjXsgxZvheN7BpvrO1vph+z1njmjf3z8qOILvMddcs06TWZOm8HyfbAG4yAdXqXJna6YpDrQWDAGlKXbdAp7TWDUKI/hV49iVWZxlZms8jZxu4uAuNB29Adi5Hs2OBJB2CmgwlZsGhBixTQxKNOs8IRIJDqq9JpdLgQwHPH80a4wARSkil8EEoqaC5Rq6ZEYjiEEIIQL8TQipEQ47TdkYgjgWkTD8nEEJBJQLF14w78Lvt/tU1q3deesyZsOltK2g8PoVB7+Qg+yVu1I5mBsGAFSoVEichd4rTrcPasvp7n+kNv3CHpBFXDvYAAAAASUVORK5CYII=' height='16.0'/>
+    <text x='20.0' y='63.0'>name: TEXT</text>
+    <image x='4.0' width='16.0' y='73.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='86.0'>teams_id: INTEGER</text>
+  </g>
+  <g transform='translate(140.0,311.0)' id='_5RpN8JwDEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='163.0px' y='0.0' stroke-width='1.0' fill='url(#311d99db-1608-4427-867c-c8de9d581c9d)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 163.0,160.0 163.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='81.5' y='16.0' fill='rgb(51, 51, 51)'>games</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='63.0'>referees_id: INTEGER</text>
+    <image x='4.0' width='16.0' y='73.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='86.0'>season_id: INTEGER</text>
+    <image x='4.0' width='16.0' y='96.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='109.0'>home_team_id: INTEGER</text>
+    <image x='4.0' width='16.0' y='119.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='132.0'>away_team_id: INTEGER</text>
+  </g>
+  <g transform='translate(54.0,557.0)' id='__CM3UJwDEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='160.0px' y='0.0' stroke-width='1.0' fill='url(#9b27e4ab-571c-47b5-a461-a43e3c9bc249)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 160.0,160.0 160.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='80.0' y='16.0' fill='rgb(51, 51, 51)'>referees</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wIDDQEb3G+TKgAAATxJREFUOMvV079KA0EQBvBv727vzF5IQoKKoBbGzt5CsPEh9EFUkDyBrfgEdj6BpdjYWKgIAcGoCCbm1ITL/Ulus7u3FqKCiXilbjvf/BiGWeDfP/JTYe/4viIjXsgxZvheN7BpvrO1vph+z1njmjf3z8qOILvMddcs06TWZOm8HyfbAG4yAdXqXJna6YpDrQWDAGlKXbdAp7TWDUKI/hV49iVWZxlZms8jZxu4uAuNB29Adi5Hs2OBJB2CmgwlZsGhBixTQxKNOs8IRIJDqq9JpdLgQwHPH80a4wARSkil8EEoqaC5Rq6ZEYjiEEIIQL8TQipEQ47TdkYgjgWkTD8nEEJBJQLF14w78Lvt/tU1q3deesyZsOltK2g8PoVB7+Qg+yVu1I5mBsGAFSoVEichd4rTrcPasvp7n+kNv3CHpBFXDvYAAAAASUVORK5CYII=' height='16.0'/>
+    <text x='20.0' y='63.0'>name: TEXT</text>
+  </g>
+  <g transform='translate(571.0,288.0)' id='_QTxs0JwEEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='160.0px' y='0.0' stroke-width='1.0' fill='url(#cc1ca21f-7133-413e-80fe-f4c6ab99ab88)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 160.0,160.0 160.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='80.0' y='16.0' fill='rgb(51, 51, 51)'>goals</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='63.0'>games_id: INTEGER</text>
+    <image x='4.0' width='16.0' y='73.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='86.0'>players_id: INTEGER</text>
+  </g>
+  <g transform='translate(352.0,624.0)' id='_ZDTBsJwEEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='160.0px' y='0.0' stroke-width='1.0' fill='url(#80610e2d-1d27-4808-a354-b0852b6b4a56)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 160.0,160.0 160.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='80.0' y='16.0' fill='rgb(51, 51, 51)'>season</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wIDDQEb3G+TKgAAATxJREFUOMvV079KA0EQBvBv727vzF5IQoKKoBbGzt5CsPEh9EFUkDyBrfgEdj6BpdjYWKgIAcGoCCbm1ITL/Ulus7u3FqKCiXilbjvf/BiGWeDfP/JTYe/4viIjXsgxZvheN7BpvrO1vph+z1njmjf3z8qOILvMddcs06TWZOm8HyfbAG4yAdXqXJna6YpDrQWDAGlKXbdAp7TWDUKI/hV49iVWZxlZms8jZxu4uAuNB29Adi5Hs2OBJB2CmgwlZsGhBixTQxKNOs8IRIJDqq9JpdLgQwHPH80a4wARSkil8EEoqaC5Rq6ZEYjiEEIIQL8TQipEQ47TdkYgjgWkTD8nEEJBJQLF14w78Lvt/tU1q3deesyZsOltK2g8PoVB7+Qg+yVu1I5mBsGAFSoVEichd4rTrcPasvp7n+kNv3CHpBFXDvYAAAAASUVORK5CYII=' height='16.0'/>
+    <text x='20.0' y='63.0'>start_date: DATE</text>
+    <image x='4.0' width='16.0' y='73.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wIDDQEb3G+TKgAAATxJREFUOMvV079KA0EQBvBv727vzF5IQoKKoBbGzt5CsPEh9EFUkDyBrfgEdj6BpdjYWKgIAcGoCCbm1ITL/Ulus7u3FqKCiXilbjvf/BiGWeDfP/JTYe/4viIjXsgxZvheN7BpvrO1vph+z1njmjf3z8qOILvMddcs06TWZOm8HyfbAG4yAdXqXJna6YpDrQWDAGlKXbdAp7TWDUKI/hV49iVWZxlZms8jZxu4uAuNB29Adi5Hs2OBJB2CmgwlZsGhBixTQxKNOs8IRIJDqq9JpdLgQwHPH80a4wARSkil8EEoqaC5Rq6ZEYjiEEIIQL8TQipEQ47TdkYgjgWkTD8nEEJBJQLF14w78Lvt/tU1q3deesyZsOltK2g8PoVB7+Qg+yVu1I5mBsGAFSoVEichd4rTrcPasvp7n+kNv3CHpBFXDvYAAAAASUVORK5CYII=' height='16.0'/>
+    <text x='20.0' y='86.0'>end_date: DATE</text>
+  </g>
+  <g transform='translate(622.0,487.0)' id='_Ek4MAJwgEDu7z8jeDdFdCA'>
+    <rect x='0.0' width='160.0px' y='0.0' stroke-width='1.0' fill='url(#f80fef8b-be2b-471e-82a2-6ecfcb03f59d)' stroke='rgb(110, 110, 110)' look='allInOne' height='23.0px'/>
+    <polyline stroke-width='1.0' fill='rgb(255, 255, 255)' fill-opacity='1.0' stroke='rgb(110, 110, 110)' look='border' points='0.0,23.0 0.0,160.0 160.0,160.0 160.0,23.0'/>
+    <text font-weight='bold' text-anchor='middle' x='80.0' y='16.0' fill='rgb(51, 51, 51)'>results</text>
+    <image x='4.0' width='16.0' y='27.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFGSURBVDjLY/j//z8DJZhhcBtwa5ou062Zhp0PV7udvjVNO5lkA25M1Cx4czL//+/PJ/8/3xX+9myrqgfRBtycppf26mDs398fFv//cKXh/5vjdf/vLg74ui1PMZIoA+4utF7/893K/z+e1f3/8WLW/w8X6/5/e9Tw/+YM+w9EGXBrpknbl7ud/789yPr//VHx/2/34/9/uxX6/2y9xWe8BtycqmvycJXbqac7Au59uhn3/9ttv//f70b//3oDqLlB7/uiCAXcXrg1wyDm7jyrc98ezfz/9U7w/2833f6fmWD+5Xyz6YtLLWYvlscpBOMNxIerPc7/eLbw/6dLFv+/XXP/f3aK9deZ0cpJO4KleA/EyfISjMbH6zxO/nzZ9v/rTd//ZyZZfZ6bqBJLUkI62WvSenW+68vTvVYPlqarhg2DvEAMBgD1ZuZTUbWrEgAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='40.0'>id: INTEGER</text>
+    <image x='4.0' width='16.0' y='50.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='63.0'>teams_id: INTEGER</text>
+    <image x='4.0' width='16.0' y='73.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wEUFxYuFIDgzwAAAVZJREFUOMvVk79qwlAYxU9uApoMEi6dRLDgFFxalDxAXdpHKHRycGjBoQXBJygU6nhbCAlCh0KLo1vBwcVJcCroILqJIGrNzfUSYp/AP8WpZ/3gx+/A+ZTNZoNjQnBkjgZou46e5xFCyKNpmhez2ey1WCy6fzIIw7CczWYrhUIhn06nn2q12uXBAM/zSpZlPWcyGYzHYyQSCZpKpRrVavX6oAq6rl9ZlkV83welFFEUwbZtg3P+AuB9r4GU8nuxWEBKCSEEdF1HEASYTqfqTgPXdfOUUpZMJk/W6zUIISCEIAxDNJtN0e/3S1sB9Xr9Jh6P3+dyuXPOOaIoQqvV8oUQK0VRMBwO7xzHaWwFmKb5YNv22WQygaZp6HQ6vNvtlgF8GoYBxtjPzh2oqioBIBaLod1ur3q93q3jOG8HD2k0Gn0tl8vT+XweDAaDCmPsY98Slf//TL8XzInjVYwe5AAAAABJRU5ErkJggg==' height='16.0'/>
+    <text x='20.0' y='86.0'>games_id: INTEGER</text>
+    <image x='4.0' width='16.0' y='96.0' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wIDDQEb3G+TKgAAATxJREFUOMvV079KA0EQBvBv727vzF5IQoKKoBbGzt5CsPEh9EFUkDyBrfgEdj6BpdjYWKgIAcGoCCbm1ITL/Ulus7u3FqKCiXilbjvf/BiGWeDfP/JTYe/4viIjXsgxZvheN7BpvrO1vph+z1njmjf3z8qOILvMddcs06TWZOm8HyfbAG4yAdXqXJna6YpDrQWDAGlKXbdAp7TWDUKI/hV49iVWZxlZms8jZxu4uAuNB29Adi5Hs2OBJB2CmgwlZsGhBixTQxKNOs8IRIJDqq9JpdLgQwHPH80a4wARSkil8EEoqaC5Rq6ZEYjiEEIIQL8TQipEQ47TdkYgjgWkTD8nEEJBJQLF14w78Lvt/tU1q3deesyZsOltK2g8PoVB7+Qg+yVu1I5mBsGAFSoVEichd4rTrcPasvp7n+kNv3CHpBFXDvYAAAAASUVORK5CYII=' height='16.0'/>
+    <text x='20.0' y='109.0'>result: TEXT</text>
+  </g>
+  <g id='_3xg38JwDEDu7z8jeDdFdCA'>
+    <polyline id='_3xjUM5wDEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='571.0,132.0 466.0,132.0'/>
+    <g transform='translate(571.0,132.0) rotate(90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_3xg38JwDEDu7z8jeDdFdCA'>
+    <polyline id='_3xj7QJwDEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='466.0,132.0 466.0,76.0'/>
+  </g>
+  <g id='_3xg38JwDEDu7z8jeDdFdCA'>
+    <polyline id='_3xj7QZwDEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='466.0,76.0 361.0,76.0'/>
+    <g transform='translate(361.0,76.0) rotate(-90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_HSOMwJwEEDu7z8jeDdFdCA'>
+    <polyline id='_HSQpApwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='303.0,369.0 353.0,369.0'/>
+    <g transform='translate(303.0,369.0) rotate(-90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_HSOMwJwEEDu7z8jeDdFdCA'>
+    <polyline id='_HSQpA5wEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='353.0,369.0 353.0,592.0'/>
+  </g>
+  <g id='_HSOMwJwEEDu7z8jeDdFdCA'>
+    <polyline id='_HSQpBJwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='353.0,592.0 214.0,592.0'/>
+    <g transform='translate(214.0,592.0) rotate(-90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_Sab3UJwEEDu7z8jeDdFdCA'>
+    <polyline id='_SadsgJwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='571.0,346.0 324.0,346.0'/>
+    <g transform='translate(571.0,346.0) rotate(90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_Sab3UJwEEDu7z8jeDdFdCA'>
+    <polyline id='_SadsgZwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='324.0,346.0 324.0,346.0'/>
+  </g>
+  <g id='_Sab3UJwEEDu7z8jeDdFdCA'>
+    <polyline id='_SadsgpwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='324.0,346.0 303.0,346.0'/>
+    <g transform='translate(303.0,346.0) rotate(-90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_TinnYJwEEDu7z8jeDdFdCA'>
+    <polyline id='_TiqqtJwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='731.0,369.0 781.0,369.0'/>
+    <g transform='translate(731.0,369.0) rotate(-90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_TinnYJwEEDu7z8jeDdFdCA'>
+    <polyline id='_TirRwJwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='781.0,369.0 781.0,86.0'/>
+  </g>
+  <g id='_TinnYJwEEDu7z8jeDdFdCA'>
+    <polyline id='_TirRwZwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='781.0,86.0 731.0,86.0'/>
+    <g transform='translate(731.0,86.0) rotate(-90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_zUvVMJwEEDu7z8jeDdFdCA'>
+    <polyline id='_zUy_kZwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='303.0,392.0 327.0,392.0'/>
+    <g transform='translate(303.0,392.0) rotate(-90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_zUvVMJwEEDu7z8jeDdFdCA'>
+    <polyline id='_zUy_kpwEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='327.0,392.0 327.0,659.0'/>
+  </g>
+  <g id='_zUvVMJwEEDu7z8jeDdFdCA'>
+    <polyline id='_zUy_k5wEEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='327.0,659.0 352.0,659.0'/>
+    <g transform='translate(352.0,659.0) rotate(90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_HYHIoJwgEDu7z8jeDdFdCA'>
+    <polyline id='_HYJk4JwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='622.0,545.0 491.0,545.0'/>
+    <g transform='translate(622.0,545.0) rotate(90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_HYHIoJwgEDu7z8jeDdFdCA'>
+    <polyline id='_HYJk4ZwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='491.0,545.0 491.0,76.0'/>
+  </g>
+  <g id='_HYHIoJwgEDu7z8jeDdFdCA'>
+    <polyline id='_HYJk4pwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='491.0,76.0 361.0,76.0'/>
+    <g transform='translate(361.0,76.0) rotate(-90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_JuRuwJwgEDu7z8jeDdFdCA'>
+    <polyline id='_JuUyFJwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='622.0,568.0 462.0,568.0'/>
+    <g transform='translate(622.0,568.0) rotate(90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_JuRuwJwgEDu7z8jeDdFdCA'>
+    <polyline id='_JuUyFZwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='462.0,568.0 462.0,346.0'/>
+  </g>
+  <g id='_JuRuwJwgEDu7z8jeDdFdCA'>
+    <polyline id='_JuUyFpwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='462.0,346.0 303.0,346.0'/>
+    <g transform='translate(303.0,346.0) rotate(-90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_Md7y8JwgEDu7z8jeDdFdCA'>
+    <polyline id='_MeAEZJwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='140.0,415.0 104.0,415.0'/>
+    <g transform='translate(140.0,415.0) rotate(90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_Md7y8JwgEDu7z8jeDdFdCA'>
+    <polyline id='_MeAEZZwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='104.0,415.0 104.0,76.0'/>
+  </g>
+  <g id='_Md7y8JwgEDu7z8jeDdFdCA'>
+    <polyline id='_MeAEZpwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='104.0,76.0 201.0,76.0'/>
+    <g transform='translate(201.0,76.0) rotate(90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_SjUc0JwgEDu7z8jeDdFdCA'>
+    <polyline id='_SjZVUJwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='140.0,438.0 72.0,438.0'/>
+    <g transform='translate(140.0,438.0) rotate(90.0)'>
+      <circle r='4.0' cx='0.0' cy='14.0' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)'/>
+      <line y1='0.0' x1='6.0' y2='8.0' x2='0.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+      <line y1='8.0' x1='0.0' y2='0.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+  <g id='_SjUc0JwgEDu7z8jeDdFdCA'>
+    <polyline id='_SjZVUZwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='72.0,438.0 72.0,76.0'/>
+  </g>
+  <g id='_SjUc0JwgEDu7z8jeDdFdCA'>
+    <polyline id='_SjZVUpwgEDu7z8jeDdFdCA' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='72.0,76.0 201.0,76.0'/>
+    <g transform='translate(201.0,76.0) rotate(90.0)'>
+      <line y1='8.0' x1='6.0' y2='8.0' x2='-6.0' stroke-width='1.0' stroke='rgb(0, 0, 0)'/>
+    </g>
+  </g>
+</svg>
