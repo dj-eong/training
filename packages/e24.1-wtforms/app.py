@@ -60,11 +60,4 @@ def display_pet(pet_id):
         return render_template('display-pet.html', pet=pet, form=form)
 
 
-# @app.route("/api/pets/<int:pet_id>", methods=['GET'])
-# def api_get_pet(pet_id):
-#     """Return basic info about pet in JSON."""
 
-#     pet = Pet.query.get_or_404(pet_id)
-#     info = {"name": pet.name, "age": pet.age}
-
-#     return jsonify(info)
