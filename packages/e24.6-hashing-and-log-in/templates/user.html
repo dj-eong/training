@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+</head>
+
+<body>
+    <h1>{{user.username}}</h1>
+    <h2>{{user.first_name}} {{user.last_name}}</h2>
+    <h3>{{user.email}}</h3>
+
+    <ul>
+        {% for feed in feedback %}
+        <li>
+            <b>{{feed.title}}</b> - {{feed.content}} (by {{feed.username}})
+            <a href="/feedback/{{feed.id}}/update"><button>Edit</button></a>
+            <form action="/feedback/{{feed.id}}/delete" method="POST">
+                <button>Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <a href="/users/{{user.username}}/feedback/add">
+        <button>Add Feedback</button>
+    </a>
+    <a href="/logout">
+        <button>Log Out</button>
+    </a>
+    <form action="/users/{{user.username}}/delete" method="POST">
+        <button>Delete Account</button>
+    </form>
+
+</body>
+
+</html>
