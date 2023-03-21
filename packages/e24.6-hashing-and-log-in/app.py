@@ -131,10 +131,3 @@ def delete_feedback(feedback_id):
 def logout():
     session.pop('username')
     return redirect('/')
-
-
-# @app.route('/secret')
-# def secret_page():
-#     if 'username' in session:
-#         return render_template('secret.html')
-#     return redirect('/')
