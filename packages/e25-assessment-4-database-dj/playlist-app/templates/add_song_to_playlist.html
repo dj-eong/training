@@ -4,6 +4,20 @@
 
 <h1>Add a song to {{ playlist.name }}</h1>
 
-<h1>Add a form that when submitted adds a song to this playlist!</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    {% for field in form if field.widget.input_type != 'hidden'%}
+    <div>
+        {{field.label}}
+        {{field}}
+        {% for err in field.errors %}
+        {{err}}
+        {% endfor %}
+    </div>
+    {% endfor %}
+    <button>Submit</button>
+</form>
+
 
 {% endblock %}
