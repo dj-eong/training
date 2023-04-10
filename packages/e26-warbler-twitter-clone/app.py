@@ -1,10 +1,11 @@
 import os
 
-from flask import Flask, render_template, request, flash, redirect, session, g
+from flask import (Flask, render_template, request,
+                   flash, redirect, session, g)
 from flask_debugtoolbar import DebugToolbarExtension
 from sqlalchemy.exc import IntegrityError
 
-from forms import UserAddForm, LoginForm, MessageForm
+from forms import UserAddForm, LoginForm, MessageForm, UpdateUserForm
 from models import db, connect_db, User, Message
 
 CURR_USER_KEY = "curr_user"
@@ -18,7 +19,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = (
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = False
-app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = True
+app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', "it's a secret")
 toolbar = DebugToolbarExtension(app)
 
@@ -114,10 +115,13 @@ def logout():
     """Handle logout of user."""
 
     # IMPLEMENT THIS
-
+    do_logout()
+    flash("You have been logged out.", "success")
+    return redirect('/login')
 
 ##############################################################################
 # General user routes:
+
 
 @app.route('/users')
 def list_users():
@@ -177,6 +181,18 @@ def users_followers(user_id):
     return render_template('users/followers.html', user=user)
 
 
+@app.route('/users/<int:user_id>/likes')
+def users_likes(user_id):
+    """Show list of likes of this user."""
+
+    if not g.user:
+        flash("Access unauthorized.", "danger")
+        return redirect("/")
+
+    user = User.query.get_or_404(user_id)
+    return render_template('users/likes.html', user=user)
+
+
 @app.route('/users/follow/<int:follow_id>', methods=['POST'])
 def add_follow(follow_id):
     """Add a follow for the currently-logged-in user."""
@@ -212,6 +228,36 @@ def profile():
     """Update profile for current user."""
 
     # IMPLEMENT THIS
+    if not g.user:
+        flash("Access unauthorized.", "danger")
+        return redirect("/")
+
+    form = UpdateUserForm(obj=g.user)
+
+    if form.validate_on_submit():
+        user = User.authenticate(g.user.username, form.password.data)
+
+        if user:
+
+            try:
+                g.user.username = form.username.data
+                g.user.email = form.email.data
+                g.user.image_url = form.image_url.data
+                g.user.header_image_url = form.header_image_url.data
+                g.user.bio = form.bio.data
+
+                db.session.commit()
+
+            except IntegrityError:
+                flash("Username already taken", 'danger')
+                return redirect('/')
+
+            flash("Your profile was updated!", "success")
+            return redirect(f"/users/{g.user.id}")
+
+        flash("Your password is incorrect.", 'danger')
+        return redirect("/")
+    return render_template('users/edit.html', form=form)
 
 
 @app.route('/users/delete', methods=["POST"])
@@ -269,7 +315,7 @@ def messages_destroy(message_id):
     """Delete a message."""
 
     if not g.user:
-        flash("Access unauthorized.", "danger")
+        flash("Access unauthorized", "danger")
         return redirect("/")
 
     msg = Message.query.get(message_id)
@@ -277,6 +323,35 @@ def messages_destroy(message_id):
     db.session.commit()
 
     return redirect(f"/users/{g.user.id}")
+
+
+##############################################################################
+# Like action:
+
+@app.route('/users/add_like/<int:message_id>', methods=["POST"])
+def add_like(message_id):
+    if not g.user:
+        flash("Access unauthorized.", "danger")
+        return redirect("/")
+
+    liked_message = Message.query.get_or_404(message_id)
+    g.user.likes.append(liked_message)
+    db.session.commit()
+
+    return redirect('/')
+
+
+@app.route('/users/remove_like/<int:message_id>', methods=["POST"])
+def remove_like(message_id):
+    if not g.user:
+        flash("Access unauthorized.", "danger")
+        return redirect("/")
+
+    unliked_message = Message.query.get_or_404(message_id)
+    g.user.likes.remove(unliked_message)
+    db.session.commit()
+
+    return redirect('/')
 
 
 ##############################################################################
@@ -292,13 +367,30 @@ def homepage():
     """
 
     if g.user:
+        followed_users = g.user.following
+        followed_users_id = {user.id for user in followed_users}
+
+        # SELECT messages.* FROM messages
+        # JOIN follows ON messages.user_id = follows.user_being_followed_id
+        # JOIN users ON user_following_id = users.id
+        # WHERE users.username = 'dj-eong'
+        # ORDER BY timestamp DESC LIMIT 100;
+
         messages = (Message
                     .query
                     .order_by(Message.timestamp.desc())
-                    .limit(100)
                     .all())
 
-        return render_template('home.html', messages=messages)
+        final_messages = []
+
+        for message in messages:
+            if (message.user_id in followed_users_id
+                    or message.user_id == g.user.id):
+                final_messages.append(message)
+
+        final_messages = final_messages[:100]
+
+        return render_template('home.html', messages=final_messages)
 
     else:
         return render_template('home-anon.html')
