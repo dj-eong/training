@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{user.username}}</h1>
+<h2>{{user.first_name}} {{user.last_name}}</h2>
+<h3>{{user.email}}</h3>
+
+<a href="/logout">
+    <button>Log Out</button>
+</a>
+<form action="/users/{{user.username}}/delete" method="POST">
+    <button>Delete Account</button>
+</form>
+<a href="/">
+    <button>Home</button>
+</a>
+{% endblock %}
