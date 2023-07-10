@@ -26,7 +26,11 @@ function handleResponse(resp) {
     for (let message of messages) {
         message.innerText = '';
     }
-    if (Object.keys(resp.data)[0] == 'errors') {
+    const hasErrors = Object.keys(resp.data?.errors || {}).length > 0;
+    if (!hasErrors && resp.data?.year?.year?.length == 0) {
+        results.innerHTML = 'something went wrong';
+        return;
+    } else if (hasErrors) {
         for (let error in resp.data.errors) {
             const errorMsg = document.querySelector(`#${error}-err`);
             errorMsg.innerHTML = `${resp.data.errors[error]}`;
