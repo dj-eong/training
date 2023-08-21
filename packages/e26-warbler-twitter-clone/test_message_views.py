@@ -119,7 +119,7 @@ class MessageViewTestCase(TestCase):
 
             resp = c.get('/messages/9999')
 
-            self.assertEqual(resp.status_code, 500)
+            self.assertEqual(resp.status_code, 404)
 
     def test_message_delete(self):
 

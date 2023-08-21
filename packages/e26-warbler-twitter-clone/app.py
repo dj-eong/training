@@ -257,7 +257,7 @@ def profile():
 
         flash("Your password is incorrect.", 'danger')
         return redirect("/")
-    return render_template('users/edit.html', form=form)
+    return render_template('users/edit.html', form=form, user_id=g.user.id)
 
 
 @app.route('/users/delete', methods=["POST"])
@@ -306,7 +306,7 @@ def messages_add():
 def messages_show(message_id):
     """Show a message."""
 
-    msg = Message.query.get(message_id)
+    msg = Message.query.get_or_404(message_id)
     return render_template('messages/show.html', message=msg)
 
 
