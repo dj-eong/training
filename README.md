@@ -15,3 +15,6 @@
 3. If 2 was followed skip to 4. Otherwise, create new branch `git checkout -b e24.1`
 4. Make changes for the assignment
 
+## After Pull Request Is Approved
+1. Checkout main and pull merged changes
+2. Delete branch `git branch -d e24.1`
