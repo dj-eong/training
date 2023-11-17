@@ -1,46 +1,66 @@
 /** Node: node for a stack. */
 
 class Node {
-  constructor(val) {
-    this.val = val;
-    this.next = null;
-  }
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
 }
 
 /** Stack: chained-together nodes where you can
  *  remove from the top or add to the top. */
 
 class Stack {
-  constructor() {
-    this.first = null;
-    this.last = null;
-    this.size = 0;
-  }
+    constructor() {
+        this.first = null;
+        this.last = null;
+        this.size = 0;
+    }
 
-  /** push(val): add new value to end of the stack. Returns undefined. */
+    /** push(val): add new value to end of the stack. Returns undefined. */
 
-  push(val) {
+    push(val) {
+        const node = new Node(val);
+        if (!this.first) {
+            this.first = node;
+            this.last = node;
+        } else {
+            let temp = this.first;
+            this.first = node;
+            this.first.next = temp;
+        }
+        this.size++;
+        return undefined;
+    }
 
-  }
+    /** pop(): remove the node from the top of the stack
+     * and return its value. Should throw an error if the stack is empty. */
 
-  /** pop(): remove the node from the top of the stack
-   * and return its value. Should throw an error if the stack is empty. */
+    pop() {
+        if (!this.last) {
+            throw new Error('Stack is empty, cannot pop!');
+        }
+        try {
+            const node = this.first;
+            this.first = this.first.next;
+            this.size--;
+            return node.val;
+        } catch (error) {
+            console.error(error);
+        }
+    }
 
-  pop() {
+    /** peek(): return the value of the first node in the stack. */
 
-  }
+    peek() {
+        return this.first.val;
+    }
 
-  /** peek(): return the value of the first node in the stack. */
+    /** isEmpty(): return true if the stack is empty, otherwise false */
 
-  peek() {
-
-  }
-
-  /** isEmpty(): return true if the stack is empty, otherwise false */
-
-  isEmpty() {
-
-  }
+    isEmpty() {
+        return this.last == null;
+    }
 }
 
 module.exports = Stack;
