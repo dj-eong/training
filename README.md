@@ -14,6 +14,8 @@
 
 3. If 2 was followed skip to 4. Otherwise, create new branch `git checkout -b e24.1`
 4. Make changes for the assignment
+5. Once done with assignment, commit and push changes
+6. Create pull request against `main` to be reviewed
 
 ## After Pull Request Is Approved
 1. Checkout main and pull merged changes
